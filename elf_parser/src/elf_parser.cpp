@@ -49,7 +49,7 @@ int  main(int argc,char *argv[])
 {
 
 
-    class   elf_parser::elf_info_parser   elf_obj("odsp_op_release");
+    class   elf_parser::elf_info_parser   elf_obj("/Users/qinmingyan/Documents/myprj/elf_parser_ext/xcode_prj/elf_parser/odsp_debug2.out");
 
 
     elf_obj.debug_out();

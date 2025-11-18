@@ -20,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		59D03C732ECC1F7A00E40022 /* elf_parser */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = elf_parser; sourceTree = BUILT_PRODUCTS_DIR; };
+		59D03C872ECC205600E40022 /* odsp_debug2.out */ = {isa = PBXFileReference; lastKnownFileType = file; path = odsp_debug2.out; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -46,6 +47,7 @@
 			children = (
 				59D03C752ECC1F7A00E40022 /* elf_parser */,
 				59D03C742ECC1F7A00E40022 /* Products */,
+				59D03C872ECC205600E40022 /* odsp_debug2.out */,
 			);
 			sourceTree = "<group>";
 		};
