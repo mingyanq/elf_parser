@@ -10,7 +10,7 @@
 
 
 
-
+#if 0
 class ME1
 {
 public:
@@ -83,3 +83,4 @@ int  main(int argc,char *argv[])
     }
     return 0;
 }
+#endif
