@@ -34,14 +34,6 @@
 		59E9FEB52ECD6840008304C1 /* elf_parser.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = elf_parser.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		59E9FEA32ECD6755008304C1 /* elf_parser */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = elf_parser;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
-
 /* Begin PBXFrameworksBuildPhase section */
 		59E9FE9E2ECD6755008304C1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
@@ -56,7 +48,6 @@
 		59E9FE982ECD6755008304C1 = {
 			isa = PBXGroup;
 			children = (
-				59E9FEA32ECD6755008304C1 /* elf_parser */,
 				59E9FEA22ECD6755008304C1 /* Products */,
 				59E9FEB62ECD6840008304C1 /* source */,
 			);
@@ -122,9 +113,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				59E9FEA32ECD6755008304C1 /* elf_parser */,
 			);
 			name = elf_parser;
 			packageProductDependencies = (
