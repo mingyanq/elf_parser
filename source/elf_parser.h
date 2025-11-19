@@ -16,6 +16,8 @@
 #include <fstream>
 #include <vector>
 
+#define _DEBUG_INFO
+
 namespace elf_parser
 {
 
@@ -528,6 +530,12 @@ private:
                 break;
             } 
         }
+        
+#ifdef _DEBUG_INFO                                      // for debug only
+        v_shead_dbg     = std::vector<Elf32_Shdr>(p_shead,p_shead+p_elf_head->e_shnum);
+        v_symtbl_dbg    = std::vector<Elf32_Sym>(p_sybtbl,p_sybtbl+100);
+#endif
+        
     }
 
 
@@ -554,7 +562,10 @@ private:
     const char                      *p_str_tbl;         // name of section
     const char                      *p_str_tbl2;        // name of symbol
 
-
+#ifdef _DEBUG_INFO                                      // for debug only
+    std::vector<Elf32_Shdr>         v_shead_dbg;
+    std::vector<Elf32_Sym>          v_symtbl_dbg;
+#endif
 
 
 };
